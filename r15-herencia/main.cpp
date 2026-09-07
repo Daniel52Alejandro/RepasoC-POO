@@ -41,6 +41,7 @@ public:
 };
 
 int main() {
+    // persona, empleado, gerente, *gerente, *empleado, *persona; bien
     {Gerente g("Ana", 1000, 5);}
 
     return 0;
